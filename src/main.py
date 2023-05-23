@@ -4,7 +4,7 @@ import requests, random
 from load_dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv('secrets/.env')
 
 intents = discord.Intents.default()
 intents.message_content = True

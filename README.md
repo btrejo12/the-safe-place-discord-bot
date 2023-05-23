@@ -9,6 +9,7 @@ A simple python-based Discord bot for all the gamers to use.
 # Installation Instructions
 Pre-requisites:
 * Pip3 & Python3
+* Docker
 <br>
 
 Pull git project and install required Python modules using the command: <br>
@@ -24,9 +25,15 @@ APIKEY=
 TOKEN=
 ```
 
-To run the project:
+To run the project locally:
 ```
 python3 main.py
+```
+
+To run the project in a local container:
+```
+docker build -t discord-bot-img
+docker run -it --rm --name tsp-discord-bot discord-bot-img
 ```
 ---
 ### Common Issues
