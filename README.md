@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 <br>
 
-Create a `.env` file at the project root and include requires secrets in the format: <br>
+Create a `secrets/.env` file and include required secrets in the format: <br>
 
 ```
 APIKEY=
